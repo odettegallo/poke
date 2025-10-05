@@ -1,6 +1,7 @@
 <script setup>
 import YuyuHakushoList from './components/YuyuHakushoList.vue';
 
+
 const personajesYuYuHakusho = [
   {
     id: 1,
