@@ -48,4 +48,34 @@ const personajesYuYuHakusho = [
   <YuyuHakushoList :personajes="personajesYuYuHakusho" />
 </template>
 
-<style scoped></style>
+<style>
+/* Estilos globales para todo el cuerpo de la página */
+body {
+    background-color: #000000; /* Fondo negro para el contraste dramático */
+    color: #fff; /* Texto blanco por defecto */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilo para el título principal */
+h1 {
+    text-align: center;
+    color: #ff0000; /* Rojo vibrante como el "Rei-gun" de Yusuke */
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3), 0 0 10px #31150b;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    border-bottom: 3px solid #4CAF50; /* Línea inferior verde */
+    display: inline-block;
+    padding: 0 20px 10px 20px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#app {
+    max-width: 1200px; /* Limita el ancho del contenedor */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+</style>

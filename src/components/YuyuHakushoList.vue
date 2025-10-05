@@ -19,3 +19,13 @@ const props = defineProps({
 </section>
 
 </template>
+
+<style scoped>
+.yuyu-hakusho-list {
+    display: grid;
+    /* Cuadrícula adaptable: 3 columnas en pantallas grandes, 2 en medianas, 1 en pequeñas */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 20px; /* Espacio entre las tarjetas */
+    padding: 20px 0;
+}
+</style>
